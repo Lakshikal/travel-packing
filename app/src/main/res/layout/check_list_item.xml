@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:padding="10dp"
+    android:textAlignment="center"
+    android:id="@+id/linearLayout"
+    android:orientation="horizontal"
+
+    >
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_weight="5"-->
+<!--        android:checked="false"-->
+<!--        android:text="@string/this_is_just_for_test"-->
+<!--        android:textSize="20sp" />-->
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:checked="true"
+        android:text="@string/this_is_just_for_test"
+        android:textSize="20sp"
+        android:buttonTint="@color/checkbox_tint"/>
+
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_marginTop="8dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/delete_white"
+        android:contentDescription="@string/delete"
+        android:scaleType="centerInside"/>
+
+
+</LinearLayout>
