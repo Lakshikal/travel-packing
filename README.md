@@ -1,4 +1,4 @@
-Travel Buddy (Jan 2023 - Feb 2023)
+Travel Buddy
 • Technology Used : Java, SQLite(Room Database) and Android Studio.
 • Designed and Implemented Application to assist travelers in Streamline packing of their belongings.
 • Integrated with smart suggestions, custom items, check off and progress tracking.

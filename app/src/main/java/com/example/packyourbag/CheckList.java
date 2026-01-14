@@ -44,15 +44,16 @@ public class CheckList extends AppCompatActivity {
     public boolean onCreatePanelMenu(int featureId, @NonNull Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_one,menu);
-
-        if(MyConstants.MY_SELECTIONS.equals(header)){
-            menu.getItem(0).setVisible(false);
-            menu.getItem(2).setVisible(false);
-            menu.getItem(3).setVisible(false);
-        }
-        else if(MyConstants.MY_LIST_CAMEL_CASE.equals(header)){
-            menu.getItem(1).setVisible(false);
-        }
+        
+// menu remove. If want add menu and uncoment nesesory
+//        if(MyConstants.MY_SELECTIONS.equals(header)){
+//            menu.getItem(0).setVisible(false);
+//            menu.getItem(2).setVisible(false);
+//            menu.getItem(3).setVisible(false);
+//        }
+//        else if(MyConstants.MY_LIST_CAMEL_CASE.equals(header)){
+//            menu.getItem(1).setVisible(false);
+//        }
 
         MenuItem menuItem = menu.findItem(R.id.btnSearch);
         SearchView searchView = (SearchView) menuItem.getActionView();
