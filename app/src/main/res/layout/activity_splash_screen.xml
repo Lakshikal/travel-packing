@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/appIcon"
         android:layout_centerInParent="true"
-        android:text="   Travel Buddy"
+        android:text=" TripMate"
         android:textColor="@color/black"
         android:textSize="40dp"
         android:textStyle="bold|italic" />
